@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/robo-robo/static/css/main.e0bc6c07.chunk.css",
+    "main.js": "/robo-robo/static/js/main.54ff3208.chunk.js",
+    "main.js.map": "/robo-robo/static/js/main.54ff3208.chunk.js.map",
+    "runtime-main.js": "/robo-robo/static/js/runtime-main.720f4663.js",
+    "runtime-main.js.map": "/robo-robo/static/js/runtime-main.720f4663.js.map",
+    "static/js/2.35a93ace.chunk.js": "/robo-robo/static/js/2.35a93ace.chunk.js",
+    "static/js/2.35a93ace.chunk.js.map": "/robo-robo/static/js/2.35a93ace.chunk.js.map",
+    "index.html": "/robo-robo/index.html",
+    "precache-manifest.0661bf04b765522ae98a94196db07a83.js": "/robo-robo/precache-manifest.0661bf04b765522ae98a94196db07a83.js",
+    "service-worker.js": "/robo-robo/service-worker.js",
+    "static/css/main.e0bc6c07.chunk.css.map": "/robo-robo/static/css/main.e0bc6c07.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.720f4663.js",
+    "static/js/2.35a93ace.chunk.js",
+    "static/css/main.e0bc6c07.chunk.css",
+    "static/js/main.54ff3208.chunk.js"
+  ]
+}
