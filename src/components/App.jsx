@@ -9,31 +9,31 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Nav />
             <Switch>
-                <Route exact path="./">
+                <Route exact path="/">
                     <Home />
                 </Route>
-                <Route exact path="./About">
+                <Route exact path="/About">
                     <About />
                 </Route>
-                <Route exact path="./Introduce-RoboRobo-Kits">
+                <Route exact path="/Introduce-RoboRobo-Kits">
                     <IntroduceRoboRoboKits />
                 </Route>
-                <Route exact path="./Product">
+                <Route exact path="/Product">
                     <Product />
                 </Route>
-                <Route exact path="./Our-Gallery">
+                <Route exact path="/Our-Gallery">
                     <OurGallery />
                 </Route>
-                <Route exact path="./Contacts">
+                <Route exact path="/Contacts">
                     <Contacts />
                 </Route>
-                <Route exact path="./Event">
+                <Route exact path="/Event">
                     <Event />
                 </Route>
-                <Route exact path="./News">
+                <Route exact path="/News">
                     <News />
                 </Route>
             </Switch>
